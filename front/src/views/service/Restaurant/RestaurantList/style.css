@@ -1,0 +1,170 @@
+#restaurant-list-wrapper 
+{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.restaurant-list-search-input-box 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+  gap: 10px;
+}
+
+.restaurant-list-search-input 
+{
+  width: 300px;
+
+  padding: 5px;
+
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 5px;
+  outline: none;
+
+  font-family: 'NanumSquareRound';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(50, 50, 50, 1);
+}
+
+.second-button 
+{
+  width: 80px;
+}
+
+.restaurant-list-no-item 
+{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 70px;
+  margin-left: 600px;
+
+  font-family: 'NanumSquareRound';
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(50, 50, 50, 1);
+}
+
+.restaurant-list-box 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.restaurant-list-item-box 
+{
+  width: 200px;
+  height: 330px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.restaurant-list-item-box:hover 
+{
+  transform: translateY(-5px);
+}
+
+.restaurant-list-item-top-box 
+{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+
+.restaurant-list-item 
+{
+  text-align: left;
+  align-items: center;
+
+  margin: 10px;
+
+  font-family: 'NanumSquareRound';
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(50, 50, 50, 1);
+}
+
+.restaurant-list-item-box img 
+{
+  width: 180px;
+  height: 150px;
+
+  object-fit: cover;
+}
+
+.name 
+{
+  width: 100px;
+}
+
+.category 
+{
+  width: 70px;
+
+  margin: 0 5px 0 0;
+
+  font-size: 12px;
+  color: rgba(150, 150, 150, 1);
+}
+
+.location 
+{
+  width: 180px;
+
+  text-align: left;
+}
+
+.load-more-button 
+{
+  width: 70px;
+  
+  text-align: center;
+
+  padding: 5px;
+  margin-top: 30px;
+
+  background-color: rgba(245, 138, 35, 0.75);
+  border-radius: 5px;
+
+  font-family: 'NanumSquareRound';
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.load-more-button:hover 
+{
+  cursor: pointer;
+  background-color: rgba(245, 138, 35, 0.9);
+}
+/* 분석 완료 */

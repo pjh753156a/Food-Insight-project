@@ -1,0 +1,173 @@
+#inquiry-detail-wrapper 
+{
+    width: 1300px;
+    min-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.inquiry-detail-main-box 
+{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    gap: 20px;
+    padding: 20px;
+
+    border: 1px solid rgba(240, 240, 240, 1);
+    border-radius: 8px;
+}
+
+.inquiry-detail-top-box 
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 13px;
+}
+
+.inquiry-detail-title 
+{
+    padding: 0px 5px;
+
+    font-family: 'NanumSquareRound';
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(50, 50, 50, 1);
+}
+
+.inquiry-detail-info-box 
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 7px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid rgba(240, 240, 240, 1);
+}
+
+.inquiry-detail-info 
+{
+    font-family: 'NanumSquareRound';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(148, 160, 180, 1);
+}
+
+.inquiry-detail-info-divider 
+{
+    font-family: 'NanumSquareRound';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(238, 238, 238, 1);
+}
+
+.inquiry-detail-contents-box 
+{
+    min-height: 300px;
+
+    padding: 0px 5px;
+
+    white-space: pre-wrap;
+
+    font-family: 'NanumSquareRound';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(50, 50, 50, 1);
+}
+
+.inquiry-detail-button-box 
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inquiry-detail-owner-button-box 
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 12px;
+}
+
+.inquiry-detail-comment-box 
+{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 13px;
+    padding: 20px;
+
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 8px;
+}
+
+.inquiry-detail-comment 
+{
+    white-space: pre-wrap;
+
+    font-family: 'NanumSquareRound';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(50, 50, 50, 1);
+}
+
+.inquiry-detail-comment-write-box 
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.inquiry-detail-comment-textarea-box 
+{
+    height: 25px;
+
+    flex-grow: 1;
+    
+    padding: 10px;
+
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 6px;
+}
+
+.inquiry-detail-comment-textarea 
+{
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+
+    width: 100%;
+    height: 300px;
+
+    font-family: 'NanumSquareRound';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(50, 50, 50, 1);
+}
+/*분석 완료*/

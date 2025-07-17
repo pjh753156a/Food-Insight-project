@@ -1,0 +1,262 @@
+.react-datepicker 
+{
+    font-family: 'KCC-Hanbit', sans-serif;
+    font-size: 16px;
+    border: 1px solid rgba(200, 200, 200, 1);
+    border-radius: 6px;
+    z-index: 9999; 
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+.react-datepicker__header 
+{
+    background-color: rgba(255, 148, 45, 1); 
+    border-bottom: none;
+    padding: 10px;
+}
+
+.react-datepicker__current-month 
+{
+    font-size: 18px; 
+    font-weight: bold;
+    color: white; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.react-datepicker__day-names 
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.react-datepicker__day 
+{
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    line-height: 40px; 
+    text-align: center; 
+    margin: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    background-color: rgba(255, 255, 255, 1); 
+    margin: 0;
+}
+
+.react-datepicker__day--selected 
+{
+    background-color: rgba(255, 148, 45, 1); 
+    color: white; 
+}
+
+.react-datepicker__day:hover 
+{
+    background-color: rgba(255, 148, 45, 1);
+}
+
+.do-reservation-date-input 
+{
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'KCC-Hanbit', sans-serif;
+    border: 1px solid rgba(200, 200, 200, 1);
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 9999; 
+    position: relative; 
+    width: 300px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+
+.do-reservation-information
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'KCC-Hanbit';
+    line-height: 100%;
+
+    color: rgba(64, 64, 64, 1);
+}
+
+.do-reservation-box
+{
+    width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;  
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.do-reservation-select-item.selected 
+{
+    background-color: rgba(255, 148, 45, 0.5);
+}
+
+.do-reservation-checkbox
+{
+    display: flex;
+    gap:10px;
+    margin-top: 50px;
+}
+
+.do-reservation-checkfont
+{
+    font-weight: bold;
+    font-family: 'KCC-Hanbit';
+    margin-top: 3px;
+}
+
+.do-reservation-primary-button
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    padding: 8px 24px;
+
+    background-color: rgba(255, 148, 45, 1);
+    border-radius: 6px;
+
+    font-family: 'KCC-Hanbit';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.do-reservation-disable-button
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    padding: 8px 24px;
+
+    background-color: rgba(138, 138, 138, 1);
+    border-radius: 6px;
+
+    font-family: 'KCC-Hanbit';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.do-reservation-primary-button:hover 
+{
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.popup-overlay 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content 
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.terms-text 
+{
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    font-family: 'KCC-Hanbit', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(64, 64, 64, 1); 
+    text-align: justify; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-close-button 
+{
+    background-color: rgba(255, 148, 45, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-close-button:hover 
+{
+    opacity: 0.8;
+}
+
+.popup-open-button 
+{
+    background-color: rgba(255, 148, 45, 1);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'KCC-Hanbit';
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.popup-open-button:hover 
+{
+    opacity: 0.8;
+}
+
+.non-space
+{
+    display: flex;
+    align-items: center;
+
+    padding: 8px 16px;
+    width: 168px;
+    margin-top: 30px;
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.do-reservation-time-people
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/* /분석 완료/ */

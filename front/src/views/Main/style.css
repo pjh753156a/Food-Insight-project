@@ -1,0 +1,226 @@
+#main-wrapper {
+  width: 100%;
+  max-height: 100vh;
+
+  position: fixed;
+  top: 105px;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+}
+
+.main-head-box 
+{
+  width: 100%;
+  height: 85px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  padding: 10px 20px;
+
+  background-color: rgba(255, 148, 45, 0.8);
+}
+
+.main-title {
+  font-family: 'Ubuntu';
+  font-size: 45px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.main-title:hover {
+  cursor: pointer;
+}
+
+.main-right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 15px;
+
+  font-family: 'NanumSquareRound';
+  line-height: 150%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.top-navigation-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 15px;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top-navigation:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.top-divider {
+  font-family: 'KCC-Hanbit';
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-top-bar-button {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 30px;
+
+  font-family: 'NanumSquareRound';
+  font-size: 17px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.logout-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-button:hover {
+  cursor: pointer;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.top-button:hover {
+  cursor: pointer;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.logout-button:hover {
+  cursor: pointer;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  
+  gap: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+/* /분석 완료/ */
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-show img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h {
+  translate: calc();
+}
+
+.main-show {
+  display: flex;
+  width: 100%; 
+  height: 500px;
+  overflow: hidden;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.compartment {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+  
+}
+
+@media (max-width: 1500px) {
+  .main-show {
+    width: 100%; 
+  }
+  .compartment {
+    width: 100%; 
+  }
+}
+
+.compartment:nth-child(1) {
+  background-image: url("../../assets/image/food.7.jpg");
+}
+.compartment:nth-child(2) {
+  background-image: url("../../assets/image/food.2.jpg");
+}
+.compartment:nth-child(3) {
+  background-image: url("../../assets/image/food.3.jpg");
+}
+.compartment:nth-child(4) {
+  background-image: url("../../assets/image/food.9.jpg");
+}
+.compartment:nth-child(5) {
+  background-image: url("../../assets/image/food.11.jpg");
+}
+
+.restaurant-image {
+  text-align: center;
+
+  padding: 20px;
+
+  background-color: rgba(245, 245, 245, 1);
+
+  border-radius: 5px;
+}
+
+/* /분석 시작/ */
+#main-restaurant-list-wrapper
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.pagination-left-arrow 
+{
+  width: 60px;
+  height: 60px;
+  background-image: url('../../assets/image/arrow-left.png');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.pagination-right-arrow 
+{
+  width: 60px;
+  height: 60px;
+  background-image: url('../../assets/image/arrow-right.png');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+/* /분석 완료/ */
+
+
+
+
