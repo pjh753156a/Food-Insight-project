@@ -135,4 +135,4 @@ function App()
 }
 
 export default App;
-{/* / 분석 완료 / */}
+{/* / 진짜 분석 완료 / */}
